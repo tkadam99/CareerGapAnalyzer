@@ -1,0 +1,20 @@
+# Virtual environments
+career_gap_env/
+venv/
+.env
+
+# Data (ignore large datasets; keep small samples)
+data/*.csv
+# !data/job_skills.csv
+!data/sample_resume.txt
+# !data/job_summary.csv
+# !data/linkedin_job_postings.csv
+
+
+# OS / python
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/

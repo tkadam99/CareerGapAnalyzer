@@ -1,0 +1,16 @@
+# Career Gap Analyzer
+
+This project analyzes a candidate resume against job market skill requirements
+to identify **matched skills** and **missing skills**.  
+It is built as a final semester project for MS CS at Binghamton University.
+
+## Features
+- Extracts skills from resume (only "Skills" section).
+- Compares resume skills with recruiter-demanded skills.
+- Highlights matched and missing skills.
+
+## Quick Start
+```bash
+git clone https://github.com/<your-username>/CareerGapAnalyzer.git
+cd CareerGapAnalyzer/src
+python app.py

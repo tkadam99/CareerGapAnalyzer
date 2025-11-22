@@ -1,0 +1,3 @@
+Tanmay Kadam
+Skills: Python, SQL, Machine Learning, Docker, Cloud Computing
+Experience: Worked on data migration, NLP, and real-time analytics
