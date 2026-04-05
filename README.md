@@ -15,6 +15,7 @@ Job seekers often struggle to understand how well their resumes align with job r
 - Analyzing broader market demand using multiple job postings
 
 The system uses rule-based text processing and dictionary-driven skill extraction to simulate intelligent resume-job matching.
+
 ---
 
 ## ✨ Features
