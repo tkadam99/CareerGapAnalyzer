@@ -1,3 +1,10 @@
 Tanmay Kadam
-Skills: Python, SQL, Machine Learning, Docker, Cloud Computing
-Experience: Worked on data migration, NLP, and real-time analytics
+
+Summary:
+Computer Science graduate student with experience in Python, SQL, Machine Learning, NLP, Docker, and cloud-based projects.
+
+Skills:
+AWS, Python, SQL, Machine Learning, NLP, Docker, PostgreSQL, Git, Data Analysis
+
+Experience:
+Worked on data migration, real-time analytics, and machine learning projects.

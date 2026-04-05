@@ -1,0 +1,2 @@
+We are looking for a Software Engineer with experience in Python, SQL, Docker, AWS, Kubernetes, Git, and Machine Learning. 
+Experience with NLP, data pipelines, and cloud deployment is a plus.

@@ -1,20 +1,49 @@
-# Virtual environments
-career_gap_env/
+# ================================
+# Virtual Environments
+# ================================
 venv/
+career_gap_env/
 .env
 
-# Data (ignore large datasets; keep small samples)
-data/*.csv
-# !data/job_skills.csv
-!data/sample_resume.txt
-# !data/job_summary.csv
-# !data/linkedin_job_postings.csv
-
-
-# OS / python
+# ================================
+# Python Cache Files
+# ================================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# IDEs
+# ================================
+# Streamlit
+# ================================
+.streamlit/
+
+# ================================
+# Testing / Temporary Files
+# ================================
+.pytest_cache/
+*.log
+
+# ================================
+# OS Files
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# IDE / Editor Settings
+# ================================
 .vscode/
 .idea/
+
+# ================================
+# Temporary / Backup Files
+# ================================
+*.tmp
+*.bak
+
+# ================================
+# Optional: Large Files (KEEP COMMENTED)
+# ================================
+# data/*.pdf
+# data/*.csv
