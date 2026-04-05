@@ -1,4 +1,4 @@
-# 🚀 AI-Powered Career Gap Analyzer
+# 🚀 Career Gap Analyzer (NLP-Inspired Resume Analysis System)
 
 An intelligent system that analyzes a candidate's resume against job descriptions or the broader job market to identify skill gaps and provide actionable recommendations.
 
@@ -14,6 +14,7 @@ Job seekers often struggle to understand how well their resumes align with job r
 - Providing personalized recommendations
 - Analyzing broader market demand using multiple job postings
 
+The system uses rule-based text processing and dictionary-driven skill extraction to simulate intelligent resume-job matching.
 ---
 
 ## ✨ Features
@@ -114,7 +115,6 @@ CareerGapAnalyzer/
 │   └── streamlit_app.py
 │
 ├── tests/
-│   └── run.py
 │   ├── test_market_analysis.py
 │   └── test_single_job.py
 │
@@ -135,7 +135,7 @@ CareerGapAnalyzer/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/CareerGapAnalyzer.git
+git clone https://github.com/tkadam99/CareerGapAnalyzer.git
 cd CareerGapAnalyzer
 ```
 
@@ -187,6 +187,39 @@ Then open:
 - Weighted fit score
 - Skill demand visualization
 
+
+Below is a sample analysis showing how the system evaluates resume-job alignment:
+
+### Resume Skills
+Python, SQL, Docker, NLP
+
+### Job Skills
+Python, SQL, AWS, Kubernetes, Docker, Machine Learning
+
+### Results
+- Matched Skills: Python, SQL, Docker
+- Missing Skills: AWS, Kubernetes, Machine Learning
+- Extra Skills: NLP
+- Fit Score: 50.0%
+- Category: Weak Match
+
+---
+
+## Screenshots
+
+### Single Job Analysis
+![Single Job Analysis](screenshots/single_job_analysis.png)
+
+---
+
+### Market Analysis
+![Market Analysis](screenshots/market_analysis.png)
+
+---
+
+### Skill Demand Visualization
+![Market Skill Demand](screenshots/market_skill_demand.png)
+
 ---
 
 ## 🧪 Technologies Used
@@ -206,6 +239,7 @@ Then open:
 - Market-aware skill gap analysis
 - Weighted scoring based on demand
 - Interactive UI with visual insights
+- Supports market-driven analysis using multi-job skill frequency
 
 ---
 
